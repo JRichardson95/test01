@@ -1,6 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Dit is de development branch");
+        Person e = new Person("Jay");
+        System.out.println(e.getName());
+        System.out.println(e.getName() + " R");
     }
 }
